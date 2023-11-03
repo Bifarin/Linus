@@ -1,0 +1,2 @@
+# replace /user/bin with dir and remove <>
+export PATH=$PATH:</usr/bin>
