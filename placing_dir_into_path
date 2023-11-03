@@ -1,2 +1,3 @@
+# append this to /home/bifarin/.bashrc
 # replace /user/bin with dir and remove <>
 export PATH=$PATH:</usr/bin>
