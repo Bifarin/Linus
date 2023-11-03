@@ -1,0 +1,6 @@
+# set myscript as executable
+chmod +x myscript.sh
+# run in cli
+./myscript.sh
+# create batch script oneline to run by doubleclicking. Ensure working directory is added to the code to make it work properly. you can also use pause keyword to troubleshoot
+wsl ./path/to/myscript.sh
