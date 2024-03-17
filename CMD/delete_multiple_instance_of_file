@@ -1,0 +1,7 @@
+# delete all instance of modules.txt in the current location recurssively
+# the token is used to accomodate directories that contains space characters
+for /f "tokens=*" %i in ('dir /s /b modules.txt') do del "%i"
+
+
+# in a specific path
+ for /f "tokens=*" %i in ('dir /s /b "C:\Users\obifar01\Desktop\Sentiment Analysis\modules.txt"') do del "%i" 
