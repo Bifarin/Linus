@@ -5,3 +5,11 @@ for /f "tokens=*" %i in ('dir /s /b modules.txt') do del "%i"
 
 # in a specific path
  for /f "tokens=*" %i in ('dir /s /b "C:\Users\obifar01\Desktop\Sentiment Analysis\modules.txt"') do del "%i" 
+
+# ask for confirmation to go ahead with delete operation
+for /f "tokens=*" %i in ('dir /s /b "C:\Users\obifar01\Desktop\Sentiment Analysis\modules.txt"') do (
+    echo Deleting "%i"
+    pause
+    del "%i"
+)
+
