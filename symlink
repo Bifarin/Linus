@@ -1,0 +1,3 @@
+mklink "reference" "original"
+
+mklink "" "C:\Users\User\Desktop\Documents\VisioExcelTemplate\Req Template.xltm"
